@@ -1,4 +1,36 @@
 .footer {
-    background-color: var(--color-dark);
+    background-color: var(--color-logo-dark);
     min-height: 100px;
 }
+.logo_container {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    max-width: 400px;
+    height: auto;    
+    }
+    
+.btn{
+    color: var(--color-font-light);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+.link_container {
+    display: flex;
+    justify-content: space-around;
+}
+.link_container_links {
+    width: fit-content;
+}
+.copyright_container {
+    display:flex;
+    justify-content: space-around;
+}
+.copyright_container p {
+    color: var(--color-font-light);
+}
+
+    
